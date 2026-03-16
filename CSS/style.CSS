@@ -1,0 +1,7 @@
+:root{
+    --violet-doux: #6C63FF;
+}
+
+h1{
+    color: var(--violet-doux);
+}
