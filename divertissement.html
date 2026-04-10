@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-
 <body>
     <header>
         <div>
@@ -24,9 +23,55 @@
             </ul>
         </nav>
     </header>
-   <main>
-    <h1>Divertissement</h1>
-   </main>
+
+<main class="diver-main">
+    <section class="diver-intro">
+        <h1>Espace Détente</h1>
+        <p>En dehors du code, j'aime découvrir de nouveaux univers. <strong>Qu'est-ce que vous me conseillez de regarder ou de tester en ce moment ?</strong></p>
+    </section>
+
+    <div class="diver-kayzer">
+        <div class="diver-img L">
+            <img src="Image/téléchargement (5).jpg" alt="Icône Cinéma" class="floating-icon icon-1">
+            <img src="Image/flx4 pioneer dj.jpg" alt="Icône Popcorn" class="floating-icon icon-2">
+        </div>
+
+        <section class="form-diver">
+            <form action="#" method="POST" class="form-fun">
+                <h3>Proposez-moi une pépite !</h3>
+                
+                <div class="diver-box">
+                    <label for="type">C'est plutôt quoi ?</label>
+                    <select id="type" name="type">
+                        <option value="film">Un Film</option>
+                        <option value="serie">Une Série</option>
+                        <option value="jeu">Un Jeu Vidéo</option>
+                        <option value="musique">De la Musique</option>
+                    </select>
+                </div>
+
+                <div class="diver-box">
+                    <label for="titre">Titre de l'œuvre</label>
+                    <input type="text" id="titre" name="titre" placeholder="Ex: Inception, Elden Ring..." required>
+                </div>
+
+                <div class="diver-box">
+                    <label for="pourquoi">Pourquoi je devrais tester ?</label>
+                    <textarea id="pourquoi" name="pourquoi" rows="3" placeholder="Dites-moi en quelques mots..."></textarea>
+                </div>
+
+                <button type="submit" class="diver-btn">Envoyer une suggestion 🚀</button>
+            </form>
+        </section>
+
+        <div class="diver-img R">
+            <img src="Image/IMG-20251122-WA0007.jpg" alt="Icône Manette" class="floating-icon icon-3">
+            <img src="Image/shervider.jpg" alt="Icône Musique" class="floating-icon icon-4">
+        </div>
+
+    </div> 
+</main>
+
     <footer>
         <p>&copy; 2026 Lumanga Kapalu Sammy - Tous droits réservés</p>
         <a href=""><i class="fa-brands fa-github"></i></a>
